@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-image: url(Images/bg.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-color: grey;
+}
+main{
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    /* background-color: white; */
+    margin-top: 15px;
+}
+main > form{
+    width: 35%;
+    /* background-color: black; */
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+main  > form> div> #h{
+    text-align: center;
+    color: rgb(252,193,57);
+
+    font-size: 28px;
+    margin-top: 30px;
+    /* padding-bottom: 30px; */
+    /* font-weight: 100px; */
+    /* word-spacing: 5px; */
+    letter-spacing: 5px;
+    font-family: Helvetica, sans-serif;
+}
+main  > form> div> #img{
+    display: flex;
+    justify-content: center;
+}
+main  > form> div> #img > img{
+    width: 10%;
+}
+main  > form> div>#n{
+    /* font-weight: bold; */
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 35px;
+    margin-top: 20px;
+
+}
+main  > form> div>#b{
+    font-weight: normal;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+
+}
+h3{
+    padding-left: 50px;
+    /* position: relative; */
+}
+
+main>form>div>input{
+    width: 75%;
+    height: 50px;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-left: 50px;
+    border: 1px solid rgb(31,52,83);
+    /* border: none; */
+    border-radius: 7px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    font-size: 18px;
+    /* box-sizing: border-box; */
+    /* position: relative; */
+    padding-left: 50px;
+}
+#check{
+    display: flex;
+    justify-content: left;
+    padding-right: 110px;
+    font-size: 20px;
+    /* word-spacing: 30px; */
+}
+#new{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;}
+#l{
+    margin-top: 30px;
+}
+button{
+    width: 80%;
+    margin-left: 50px;
+    border-radius: 4px;
+    border: 1px solid rgb(24,49,83);
+    height: 40px;
+    background-color: rgb(255,212,59);
+    color: rgb(24,49,83);
+    font-size: 17px;
+    border-bottom:6px solid rgb(24,49,83);
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.fa-envelope{
+    position: absolute;
+    top: 51.5%;
+    left: 37%;
+    font-size: 20px;
+}
+#a{
+    position: relative;
+}
+.fa-lock{
+    position: absolute;
+    top: 72.5%;
+    left: 37%;
+    font-size: 20px;
+}
+span{
+    color: red;
+    text-align: center;
+    display: block;
+}
